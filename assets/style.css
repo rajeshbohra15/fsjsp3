@@ -163,3 +163,29 @@ section.banner {
 .icons span img{
     width: 35px;
 }
+.star{
+    position: absolute;
+    display: inline-block;
+    right: 16%;
+    top: 30%;
+}
+.star:nth-child(2){
+    top: 90%;
+    left: 50%;
+}
+.star:nth-child(2) img{
+    width: 40px;
+}
+img[alt="start-pattern"]{
+    width: 60px;
+}
+/* globe */
+.globe{
+    position: absolute;
+    display: inline-block;
+    left: 55%;
+    top: 25%;
+}
+img[alt="globe-pattern"]{
+    width: 60px;
+}
