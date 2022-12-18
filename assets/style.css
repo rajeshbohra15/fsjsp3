@@ -44,8 +44,9 @@
 }
 .main-header .nav-menu{
     display: flex;
-    width: 80%;
+    width: 70%;
     align-items: center;
+    justify-content: space-between;
 }
 .main-header .nav-menu ul li{
     display: inline;
@@ -54,10 +55,12 @@
 .main-header .nav-menu ul li a{
     text-decoration: none;
     color: #a6a6a6;
+    font-weight: 400;
 }
 .main-header .nav-menu ul li a.active,
 .main-header .nav-menu ul li a:hover{
     color: #000;
+    font-weight: 600;
 }
 .main-header .nav-menu img{
     margin-right: 100px;
